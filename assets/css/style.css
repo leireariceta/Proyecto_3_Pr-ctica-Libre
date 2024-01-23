@@ -176,7 +176,6 @@ header .contenedor2{
     margin-inline-start: 3em;
 }
 
-
 header .contenedor2 :nth-child(1){
     font-size: 5.2vw;
     line-height: 5vw;
@@ -239,3 +238,4 @@ header .contenedor2 :nth-child(8){
 #toggle:checked ~ nav .contenedor .inf{
     left: 0;
 }
+
