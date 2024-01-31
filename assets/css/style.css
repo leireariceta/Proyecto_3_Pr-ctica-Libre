@@ -403,6 +403,49 @@
     padding-bottom: 3rem;
   }
 
+  .chips{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 2rem;
+  }
+
+  .chips_productos{
+    background-color: var(--color0);
+    color: var(--color1);
+  
+    padding: .3rem 2rem;
+    border-radius: 1rem;
+    border: .5px solid var(--color5);
+  
+    font-size: 18px;
+    font-family: var(--fuente2);
+    color: var(--color1);
+    letter-spacing: 2px;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+    cursor: pointer;
+  }
+
+  .chips_productos:hover{
+    background-color: var(--color5);
+    color: var(--color1);
+    border-color: var(--color1);
+  
+    transition: 1s;
+  }
+
+  .chips_productos:active{
+    transform:scale(0.95);
+    transition: 0.15s;
+}
+
   .Productos{
     display: flex;
     flex-direction: row;
@@ -427,10 +470,187 @@
     column-gap: 12px;
     padding: 14px;
     border-radius: 8px;
-
-    row-gap: 16px;
   }
 
-  /* GALERIA IMAGENES */
 
-  
+  .etiqueta_descuento{
+    background-color: var(--color5);
+    color: var(--color1);
+
+    padding: .3rem 1rem;
+    border-radius: 1rem;
+    border: .5px solid var(--color5);
+    transform: translateX(-150%);
+  }
+
+  .img_descuento{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    object-fit: cover;
+  }
+
+  .img_descuento img{
+    width: 435px;
+    height: 270px;
+  }
+
+  .five_stars{
+    width: 6px;
+    height: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .five_stars img{
+    width: 73px;
+    height: 47px;
+    transform: translateY(-90%);
+  }
+
+  .Productos .cardProducto .nombre_cafe_descuento p{
+    display: flex;
+    transform: translateY(-100%);
+  }
+
+  .Productos .contenedor_compra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    column-gap: 12rem;
+  }
+
+
+  .Productos .contenedor_compra img{
+    width: 24px;
+    height: 24px;
+  }
+
+  /* GALERIA IMAGENES  CONTENEDOR 5*/
+
+  #Contenedor5{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+    column-gap: 2rem;
+    row-gap: 3rem;
+
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    padding-left: 2rem;
+  }
+
+  .galeria_sup{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 3rem;
+  }
+
+  .galeria_sup img{
+    border-radius: 8px;
+  }
+
+  .galeria_sup img:hover{
+    transform: scale(1.05);
+  }
+
+  .galeria_inf{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    column-gap: 3rem;
+    border-radius: 8px;
+  }
+
+  .galeria_inf img{
+    border-radius: 8px;
+  }
+
+  .galeria_inf img:hover{
+    transform: scale(1.05);
+  }
+
+  /* CONTENEDOR 6 ESPECIALES */ 
+
+  #Contenedor6{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 42px;
+
+    padding-bottom: 3rem;
+  }
+
+  /* CONTENEDOR 7 BLOG */
+
+  #Contenedor7{
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    row-gap: 62px;
+
+    padding-bottom: 3rem;
+  }
+
+  .blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 3rem;
+
+    padding-bottom: 4rem;
+  }
+
+  #Contenedor7 .blog .post{
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    row-gap: 1rem;
+  }
+
+  #Contenedor7 .blog .post h3{
+    font-family: var(--fuente1);
+    font-size: 22px;
+  }
+
+
+  #Contenedor7 .blog .post img{
+    border-radius: 8px;
+  }
